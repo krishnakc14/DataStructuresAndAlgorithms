@@ -1,4 +1,4 @@
-package org.java.practise.SimplePrograms;
+package org.java.practise.DataStructures.Programs;
 
 
 public class StringReversal {

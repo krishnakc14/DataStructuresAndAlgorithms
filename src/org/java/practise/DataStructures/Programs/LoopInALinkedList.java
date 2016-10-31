@@ -1,4 +1,4 @@
-package org.java.practise.SimplePrograms;
+package org.java.practise.DataStructures.Programs;
 
 import java.util.HashSet;
 import java.util.Set;
