@@ -1,4 +1,4 @@
-package org.java.SortingAlgorithms;
+package org.java.design.SortingAlgorithms;
 
 //import static org.java.SortingAlgorithms.InitialVersion.*;
 

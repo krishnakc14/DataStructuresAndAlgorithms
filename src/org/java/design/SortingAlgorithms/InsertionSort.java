@@ -1,6 +1,6 @@
-package org.java.SortingAlgorithms;
+package org.java.design.SortingAlgorithms;
 
-import static org.java.SortingAlgorithms.InitialVersion.*;
+import static org.java.design.SortingAlgorithms.InitialVersion.*;
 
 public class InsertionSort {
 
