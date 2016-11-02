@@ -21,7 +21,7 @@ public class BinarySearchTree {
 		if(data < current.data)
 		{
 			if(current.left != null){
-				insert(root.left,data);
+				insert(current.left,data);
 				return;
 				
 			}
@@ -48,7 +48,7 @@ public class BinarySearchTree {
 	
 	public void print()
 	{
-		System.out.println("Elements in the tree");
+		System.out.println("Elements in the tree - PreOrderTraversal");
 		print(root);
 		
 	}
@@ -67,6 +67,7 @@ public class BinarySearchTree {
 		}
 		
 	}
+	
 	
 	public void search(int data)
 	{
@@ -100,6 +101,22 @@ public class BinarySearchTree {
 		}
 	}
 	
+	public BinarySearchTree pseudomain()
+	{
+		BinarySearchTree bst = new BinarySearchTree();
+		bst.insert(15);
+		bst.insert(10);
+		bst.insert(20);
+		bst.insert(8);
+		bst.insert(12);
+		bst.insert(17);
+		bst.insert(25);
+		bst.insert(35);
+		bst.insert(16);
+		bst.insert(18);
+		bst.insert(19);
+		return bst;
+	}
 
 	public static void main(String[] args) {
 
@@ -112,23 +129,12 @@ public class BinarySearchTree {
 		bst.insert(17);
 		bst.insert(25);
 		bst.insert(35);
+		bst.insert(16);
+		bst.insert(18);
+		bst.insert(19);
 		bst.print();
 		bst.search(225);
 		
-		
 	}
 	
-	class Node
-	{
-		int data;
-		Node left;
-		Node right;
-		
-		public Node(int data){
-			this.data = data;
-		}
-		
-		
-	}
-
 }

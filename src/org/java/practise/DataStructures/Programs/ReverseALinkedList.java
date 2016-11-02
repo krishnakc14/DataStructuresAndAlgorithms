@@ -1,7 +1,7 @@
 package org.java.practise.DataStructures.Programs;
 
 import org.java.design.DataStructures.LinkedList;
-import org.java.design.DataStructures.LinkedList.Node;
+import org.java.design.DataStructures.Node;
 
 public class ReverseALinkedList {
 	

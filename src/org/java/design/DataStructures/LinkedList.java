@@ -41,7 +41,7 @@ public class LinkedList {
 			return;
 		}
 		
-		if(head.value == data)
+		if(head.data == data)
 		{
 			head = head.next;
 			return;
@@ -49,7 +49,7 @@ public class LinkedList {
 		
 		Node current = head;
 		while(current.next != null){
-			if(current.next.value == data)
+			if(current.next.data == data)
 			{
 				current.next = current.next.next;
 				return;
@@ -72,8 +72,8 @@ public class LinkedList {
 		int position = 0;
 		while(current != null)
 		{
-			if(current.value == data){
-				System.out.println("The value is at position "+position);
+			if(current.data == data){
+				System.out.println("The data is at position "+position);
 				return;
 				
 			}
@@ -91,7 +91,7 @@ public class LinkedList {
 	{
 		Node current = head;
 		while(current != null){
-			System.out.print(current.value+"\t");
+			System.out.print(current.data+"\t");
 			current = current.next;
 		}
 		
@@ -113,16 +113,5 @@ public class LinkedList {
 
 	}
 	
-	public class Node{
-		
-		public int value;
-		public Node next;
-		
-		
-		public Node(int data){
-			value = data;
-		}
-		
-	}
 
 }

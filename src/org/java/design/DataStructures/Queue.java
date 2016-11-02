@@ -30,6 +30,32 @@ public class Queue {
 		
 	}
 	
+	public void add(Node node){
+		
+		if(head == null){
+			head = new Node(node);
+			rear = head;
+			return;
+		}
+		
+		rear.next = new Node(node);
+		rear = rear.next;
+		
+	}
+	
+	public Node poll()
+	{
+		
+		if(head == null){
+			System.out.println("Dequeuing from an Empty Queue!");
+			return null;
+		}
+		Node current = head;
+		head = head.next;
+		return current.node;
+		
+	}
+	
 	public void frontOfQueue(){
 		
 		if(head == null){
@@ -59,6 +85,14 @@ public class Queue {
 		
 	}
 	
+	public boolean isEmpty()
+	{
+		
+		if(head == null)
+			return true;
+		return false;
+	}
+	
 	
 
 	public static void main(String[] args) {
@@ -85,14 +119,4 @@ public class Queue {
 		
 	}
 	
-	
-	class Node{
-		int data;
-		Node next;
-		
-		public Node(int data){
-			this.data = data;
-		}
-	}
-
 }
