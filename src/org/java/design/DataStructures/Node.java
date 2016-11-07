@@ -15,5 +15,6 @@ public class Node {
 	public Node(Node node){
 		this.node = node;
 	}
+	
 
 }
