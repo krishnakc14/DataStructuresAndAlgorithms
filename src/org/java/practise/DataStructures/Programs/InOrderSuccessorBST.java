@@ -5,20 +5,11 @@ import org.java.design.DataStructures.Node;
 
 public class InOrderSuccessorBST {
 	
-	
-	public static Node find(Node root, int data)
-	{
-		
-		
-		
-		
-		return root;
-	}
+	//TODO : Solve a problem to find the in order predecessor in a binary search tree 
+	// that has time complexity of O(h)
 	
 	public static int Successor(Node node, int data)
 	{
-		
-		
 		//When the node has no right subTree
 		Node successor = null;
 		Node ancestor =  node;
@@ -61,7 +52,7 @@ public class InOrderSuccessorBST {
 		BinarySearchTree bst = new BinarySearchTree();
 		bst = bst.pseudomain();
 		
-		System.out.println(Successor(bst.root, 17));
+		System.out.println(Successor(bst.root, 8));
 		
 		
 	}
