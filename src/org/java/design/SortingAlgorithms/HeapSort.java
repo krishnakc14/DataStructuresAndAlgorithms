@@ -1,16 +1,14 @@
 package org.java.design.SortingAlgorithms;
 
-//import static org.java.SortingAlgorithms.InitialVersion.*;
-
-public class HeapSort {
-
-	public static void main(String[] args) {
-
-		//int[] num = getInput();
-		
-		
-		
-		
-	}
-
+public class HeapSort<AnyType extends Comparable<AnyType>> {
+	
+	//Things learnt from Heap Algorithm
+	//1. To define AnyType object- String or Integer as the data type
+	//2. Traverse Elements and heap Sort
+	
+	
+	
+	
+	
+	
 }

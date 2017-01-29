@@ -1,4 +1,4 @@
-package org.java.practise.SimplePrograms;
+package org.java.practise.CrackingTheCoding;
 
 import java.util.Scanner;
 
