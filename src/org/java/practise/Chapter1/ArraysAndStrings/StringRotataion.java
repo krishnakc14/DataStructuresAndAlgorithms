@@ -8,8 +8,8 @@ public class StringRotataion {
 	
 	public static void main(String[] args) {
 
-		String s1 = "waterbottle";
-		String s2 = "erbottlewat";
+		String s1 = "beauty";
+		String s2 = "ybeaut";
 		
 		String s3 = s1+s1;
 		
@@ -24,7 +24,27 @@ public class StringRotataion {
 	public static boolean isSubstring(String s1, String s2)
 	{
 		
-		return s1.contains(s2); 
+		int count = s2.length();
+		int j = 0;
+		
+		for(int i = 0; i <s1.length(); i++)
+		{
+			
+			if(s2.charAt(j) == s1.charAt(i))
+			{
+				
+				j = j+1;
+				if(j == count)
+					return true;
+			}
+			else
+			{
+				j=0;
+			}
+			
+		}
+		
+		return false; 
 		
 	}
 
