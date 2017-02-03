@@ -87,7 +87,7 @@ public class LinkedList {
 		
 	}
 	
-	public void print(Node head)
+	public static void print(Node head)
 	{
 		Node current = head;
 		while(current != null){
@@ -143,7 +143,7 @@ public class LinkedList {
 		list.add(90);
 		list.delete(50);
 		list.find(90);
-		list.print(list.head);
+		print(list.head);
 		System.out.println("List length = "+list.length());
 		System.out.println(String.format("Value at %d is "+list.valueAt(5),5));
 
