@@ -65,7 +65,7 @@ public class Graph {
 		
 		int v = findTheVertex(name, vertex);
 		Node node = vertex[v].nodes.head;
-		vertex[v].nodes.print(node);
+		LinkedList.print(node);
 		
 		
 	}

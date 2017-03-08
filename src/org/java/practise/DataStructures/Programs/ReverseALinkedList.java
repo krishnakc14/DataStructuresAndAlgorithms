@@ -36,13 +36,13 @@ public class ReverseALinkedList {
 		list.add(90);
 		list.delete(50);
 		
-		list.print(list.head);
+		LinkedList.print(list.head);
 		
 		ReverseALinkedList rev = new ReverseALinkedList();
 
 		System.out.println("Reversed List:");
 		
-		list.print(rev.Recursive(list.head));
+		LinkedList.print(rev.Recursive(list.head));
 		
 	}
 	

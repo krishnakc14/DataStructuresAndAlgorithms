@@ -11,7 +11,7 @@ public class PalindromePermutation {
 
 	public static void main(String[] args) {
 		
-		System.out.println(palindrome("kaaak"));
+		System.out.println(palindrome("akaak"));
 		
 	}
 	
