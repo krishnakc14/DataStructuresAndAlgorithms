@@ -118,7 +118,7 @@ public class HeapWithAnyType<AnyType extends Comparable<AnyType>> {
 		 he.print();
 		 
 		 System.out.println();
-		 String[] s = {"Krishna","Anu", "Achu", "Kandhari", "Z", "Sri"};
+		 String[] s = {"Krishna","Anu", "Achu", "Z", "Sri"};
 		 HeapWithAnyType<String> str = new HeapWithAnyType<>(s);
 		 str.heapify(s);
 		 str.insert("ZLux");
