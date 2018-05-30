@@ -2,7 +2,8 @@ package org.java.design.SortingAlgorithms;
 
 import java.util.Arrays;
 
-@SuppressWarnings("unchecked")
+@SuppressWarnings({"unchecked", "unused"})
+
 public class HeapSort<AnyType extends Comparable<AnyType>> {
 	
 	//Things learnt from Heap Algorithm
